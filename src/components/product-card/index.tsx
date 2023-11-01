@@ -13,7 +13,7 @@ const Index = ({product}: {product: Product}) => {
                    <span>{product.rating}</span>
                </div>
             } titleTypographyProps={{
-                fontSize: '1.5rem',
+                fontSize: '1.25rem',
             }}/>
             <CardMedia component='img' height='200' image={image}/>
             <CardContent>
